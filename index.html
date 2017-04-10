@@ -63,6 +63,32 @@ $(document).ready(function()
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid5').offset().top }, 600, 'linear');
    });
+   function Bookmark1Scroll()
+   {
+      var $obj = $("#wb_Bookmark1");
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         ShowObject('wb_LayoutGrid3', 0);
+         ShowObject('wb_LayoutGrid4', 0);
+         ShowObject('wb_LayoutGrid5', 0);
+         ShowObject('wb_LayoutGrid6', 0);
+         ShowObject('wb_LayoutGrid8', 0);
+         ShowObject('wb_LayoutGrid10', 0);
+         ShowObject('wb_LayoutGrid11', 0);
+         ShowObject('wb_LayoutGrid12', 0);
+      }
+      else
+      if ($obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+      }
+   }
+   Bookmark1Scroll();
+   $(window).scroll(function(event)
+   {
+      Bookmark1Scroll();
+   });
    $("a[href*='#Bookmark1']").click(function(event)
    {
       event.preventDefault();

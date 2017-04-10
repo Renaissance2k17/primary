@@ -474,7 +474,7 @@ body
    clear: both;
    position: relative;
    table-layout: fixed;
-   display: none;
+   display: table;
    text-align: center;
    width: 100%;
    background-color: transparent;
@@ -791,7 +791,7 @@ body
    clear: both;
    position: relative;
    table-layout: fixed;
-   display: none;
+   display: table;
    text-align: center;
    width: 100%;
    background-color: #00283A;
@@ -989,7 +989,7 @@ body
    clear: both;
    position: relative;
    table-layout: fixed;
-   display: none;
+   display: table;
    text-align: center;
    width: 100%;
    background-color: transparent;
@@ -1187,7 +1187,7 @@ body
    clear: both;
    position: relative;
    table-layout: fixed;
-   display: none;
+   display: table;
    text-align: center;
    width: 100%;
    background-color: #92C500;
@@ -1597,7 +1597,7 @@ body
    clear: both;
    position: relative;
    table-layout: fixed;
-   display: none;
+   display: table;
    text-align: center;
    width: 100%;
    background-color: transparent;
@@ -2017,7 +2017,7 @@ body
    clear: both;
    position: relative;
    table-layout: fixed;
-   display: none;
+   display: table;
    text-align: center;
    width: 100%;
    background-color: #00283A;
@@ -2263,7 +2263,7 @@ body
    clear: both;
    position: relative;
    table-layout: fixed;
-   display: none;
+   display: table;
    text-align: center;
    width: 100%;
    background-color: transparent;
@@ -2473,7 +2473,7 @@ body
    clear: both;
    position: relative;
    table-layout: fixed;
-   display: none;
+   display: table;
    text-align: center;
    width: 100%;
    background-color: #00283A;
